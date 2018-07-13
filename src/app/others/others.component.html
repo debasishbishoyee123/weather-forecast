@@ -1,0 +1,15 @@
+<h1>Enter cityname and code</h1>
+<form>
+  <div class=form-group>
+    <label>City</label>
+    <input type="text" name="city" class="form-control" [(ngModel)]="city" /><br><br>
+
+    <label>Code</label>
+    <input type="text" name="code" class="form-control" [(ngModel)]="code" />
+
+  </div>
+
+     <button class="btn btn-primary" (click)="save()">Save</button>
+
+
+</form>
